@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Timur/Labs_3semester/Lab2/Body.h
+
+C:/Users/Timur/Labs_3semester/Lab2/Knap.h
+Body.h
+C:/Users/Timur/Labs_3semester/Lab2/Body.h
+Pair.cpp
+C:/Users/Timur/Labs_3semester/Lab2/Pair.cpp
+
+C:/Users/Timur/Labs_3semester/Lab2/Pair.cpp
+Pair.h
+C:/Users/Timur/Labs_3semester/Lab2/Pair.h
+
+C:/Users/Timur/Labs_3semester/Lab2/Pair.h
+cstdlib
+-
+iostream
+-
+
+C:/Users/Timur/Labs_3semester/Lab2/main.cpp
+Knap.h
+C:/Users/Timur/Labs_3semester/Lab2/Knap.h
+string
+-
+
