@@ -1,27 +1,45 @@
 //
-// Created by Timur on 03.11.2021.
+// Created by Timur on 27.01.2022.
 //
 
-#ifndef LAB2_DICTIONARY_H
-#define LAB2_DICTIONARY_H
+#ifndef HASH_TABLE_DICTIONARY_H
+#define HASH_TABLE_DICTIONARY_H
 
-#include "Pair.h"
+#include <list>
+#include "IDictionary.h"
+#include <string>
+#include<bits/stdc++.h>
 
-template <class T, class P>
-class Dictionary
+template <class  TElement>
+class Dictionary: public IDictionary< std::string, TElement>
 {
 private:
-    size_t size;
-    Pair<T, P> *array;
+    unsigned static const defaultCapacity=17;
+    unsigned capacity;
+    unsigned count;
+    unsigned static const p = 2; //
+    unsigned static const q = 2; // коэффицент сжатия
+
 public:
+    std::vector< std::list< std::pair<std::string, TElement* > > > table;
+    std::list< std::string> keys;
     Dictionary();
-    void Add (Pair<T, P>);
-    void Add (T, P);
-    //void Delete ();
-    P Get (T);
-    bool IsKey (T);
-    size_t GetSize ();
+    Dictionary(unsigned divisor);
+    ~Dictionary();
+    int GetHash(std::string key);
+    TElement* Get (std::string key) ;
+    int GetCount ();
+    int GetCapacity();
+    bool ContainsKey(std::string key);
+    void Remove(std::string key);
+    void Add (std::string& key, TElement* element);
+    void Resize (size_t);
+    void Print ();
+    const TElement& operator[](int key);
+    void PushBack(std::string key, TElement* element,int hash);
+    void CopyTable(std::vector< std::list< std::pair<std::string, TElement* > > > &copy);
+    std::list< std::string> &GetListKeys();
 };
 
 
-#endif //LAB2_DICTIONARY_H
+#endif //HASH_TABLE_DICTIONARY_H

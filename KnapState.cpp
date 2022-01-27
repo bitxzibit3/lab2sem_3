@@ -97,6 +97,10 @@ bool KnapState::HasPermutations() {
     return false;
 }
 
+int KnapState::GetCost() {
+    return knap.GetCost();
+}
+
 std::ostream& operator<< (std::ostream& out, KnapState knap)
 {
     out << "Now knap: ";

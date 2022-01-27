@@ -22,6 +22,7 @@ public:
     Object GetObject (int);
     int GetWeight ();
     int GetSize ();
+    int GetCost ();
     Set<Object> UniqueObjects ();
     ArrSeq<KnapState> GetAllPoss ();
     KnapState& operator= (const KnapState&);

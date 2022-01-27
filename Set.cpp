@@ -76,38 +76,3 @@ std::ostream &operator<<(std::ostream &out, Set<T> set) {
         out << *it << " ";
     return out;
 }
-
-template<class T>
-T &Set<T>::Iterator::operator--() {
-    return *(--ptr);
-}
-
-template<class T>
-T &Set<T>::Iterator::operator-(int n) {
-    return *(ptr - n);
-}
-
-template<class T>
-bool Set<T>::Iterator::operator==(const Set::Iterator &it) {
-    return (ptr == it.ptr);
-}
-
-template<class T>
-T &Set<T>::Iterator::operator+(int n) {
-    return *(ptr + n);
-}
-
-template<class T>
-T &Set<T>::Iterator::operator++() {
-    return *(++ptr);
-}
-
-template<class T>
-bool Set<T>::Iterator::operator!=(const Set::Iterator &it) {
-    return (ptr != it.ptr);
-}
-
-template<class T>
-T &Set<T>::Iterator::operator*() {
-    return *ptr;
-}
