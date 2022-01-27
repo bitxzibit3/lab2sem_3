@@ -10,12 +10,7 @@
 
 
 int main() {
-//    dialog();
-    Dictionary<int> dict;
-    int *a = new int (13);
-    std::string s = "abcd";
-    dict.Add(s, a);
-    std::cout << dict.ContainsKey("abcd");
+    dialog();
     return 0;
 }
 
