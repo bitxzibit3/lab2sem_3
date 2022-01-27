@@ -1,0 +1,199 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags:  
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags:  
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+Permission denied
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Permission denied
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags:  
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags:  
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: -c 
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+Permission denied
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/tim/cmake-3.20.6-linux-x86_64 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+Permission denied
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /mnt/c/Users/Timur/Labs_3semester/Lab2/cmake-build-asan/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/tim/cmake-3.20.6-linux-x86_64 -f Makefile cmTC_31a9f/fast && Permission denied
+Generator: execution of make failed. Make command was: /home/tim/cmake-3.20.6-linux-x86_64 -f Makefile cmTC_31a9f/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /mnt/c/Users/Timur/Labs_3semester/Lab2/cmake-build-asan/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/tim/cmake-3.20.6-linux-x86_64 -f Makefile cmTC_6b29c/fast && Permission denied
+Generator: execution of make failed. Make command was: /home/tim/cmake-3.20.6-linux-x86_64 -f Makefile cmTC_6b29c/fast && 
+
+

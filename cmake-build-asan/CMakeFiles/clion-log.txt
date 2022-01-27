@@ -1,0 +1,34 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/sh -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/Timur/Labs_3semester/Lab2/cmake-build-asan && /home/tim/cmake-3.20.6-linux-x86_64/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_MAKE_PROGRAM=/home/tim/cmake-3.20.6-linux-x86_64 -DCMAKE_C_COMPILER=/home/tim/cmake-3.20.6-linux-x86_64 -DCMAKE_CXX_COMPILER=/home/tim/cmake-3.20.6-linux-x86_64 -DCMAKE_BUILD_TYPE=ASAN -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G 'CodeBlocks - Unix Makefiles' /mnt/c/Users/Timur/Labs_3semester/Lab2"
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- Detecting C compiler ABI info
+CMake Error: Generator: execution of make failed. Make command was: /home/tim/cmake-3.20.6-linux-x86_64 -f Makefile cmTC_31a9f/fast && 
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /home/tim/cmake-3.20.6-linux-x86_64
+CMake Error: Generator: execution of make failed. Make command was: /home/tim/cmake-3.20.6-linux-x86_64 -f Makefile cmTC_6b29c/fast && 
+-- Check for working C compiler: /home/tim/cmake-3.20.6-linux-x86_64 - broken
+CMake Error at /home/tim/cmake-3.20.6-linux-x86_64/share/cmake-3.20/Modules/CMakeTestCCompiler.cmake:66 (message):
+  The C compiler
+
+    "/home/tim/cmake-3.20.6-linux-x86_64"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /mnt/c/Users/Timur/Labs_3semester/Lab2/cmake-build-asan/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/home/tim/cmake-3.20.6-linux-x86_64 -f Makefile cmTC_6b29c/fast && Permission denied
+    Generator: execution of make failed. Make command was: /home/tim/cmake-3.20.6-linux-x86_64 -f Makefile cmTC_6b29c/fast && 
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/mnt/c/Users/Timur/Labs_3semester/Lab2/cmake-build-asan/CMakeFiles/CMakeOutput.log".
+See also "/mnt/c/Users/Timur/Labs_3semester/Lab2/cmake-build-asan/CMakeFiles/CMakeError.log".

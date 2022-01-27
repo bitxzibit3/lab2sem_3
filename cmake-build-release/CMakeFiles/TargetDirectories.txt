@@ -1,0 +1,3 @@
+C:/Users/Timur/Labs_3semester/Lab2/cmake-build-release/CMakeFiles/Lab2.dir
+C:/Users/Timur/Labs_3semester/Lab2/cmake-build-release/CMakeFiles/edit_cache.dir
+C:/Users/Timur/Labs_3semester/Lab2/cmake-build-release/CMakeFiles/rebuild_cache.dir
